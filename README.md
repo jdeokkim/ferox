@@ -3,7 +3,7 @@
 <img src="docs/static/images/readme-logo.png" alt="c-krit/ferox"><br>
 
 [![Version Badge](https://img.shields.io/github/v/release/c-krit/ferox?color=lightseagreen)](https://github.com/c-krit/ferox/releases)
-[![Codefactor Badge](https://www.codefactor.io/repository/github/c-krit/ferox/badge)](https://www.codefactor.io/repository/github/c-krit/ferox)
+[![Codefactor Badge](https://www.codefactor.io/repository/github/jdeokkim/ferox/badge)](https://www.codefactor.io/repository/github/jdeokkim/ferox)
 [![Code Size Badge](https://img.shields.io/github/languages/code-size/c-krit/ferox?color=brightgreen)](https://github.com/c-krit/ferox)
 [![License Badge](https://img.shields.io/github/license/c-krit/ferox)](https://github.com/c-krit/ferox/blob/main/LICENSE)
 
