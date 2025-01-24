@@ -23,9 +23,8 @@
 # ============================================================================>
 
 PROJECT_NAME = ferox
-PROJECT_FULL_NAME = c-krit/ferox
 
-LOG_PREFIX = $(PROJECT_FULL_NAME):
+LOG_PREFIX = ~>
 
 # ============================================================================>
 
@@ -55,7 +54,7 @@ LDFLAGS = /DEBUG
 all: pre-build build post-build
 
 pre-build:
-	@echo $(LOG_PREFIX) Using: '$(CC)' and '$(AR)' to build this project.
+	@printf "${LOG_PREFIX} CC = ${CC}, AR = ${AR}, MAKE = ${MAKE}\n"
 	
 build: $(TARGETS)
 

@@ -85,7 +85,7 @@ static void DeinitExample(void);
 int main(void) {
     SetConfigFlags(FLAG_MSAA_4X_HINT);
 
-    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "c-krit/ferox | " __FILE__);
+    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "jdeokkim/ferox | " __FILE__);
 
     InitExample();
 
