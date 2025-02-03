@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2021-2024 Jaedeok Kim <jdeokkim@protonmail.com>
+    Copyright (c) 2021-2025 Jaedeok Kim <jdeokkim@protonmail.com>
 
     Permission is hereby granted, free of charge, to any person obtaining a 
     copy of this software and associated documentation files (the "Software"),
@@ -49,7 +49,7 @@
 
 /* Typedefs ================================================================ */
 
-typedef enum _EntityType {
+typedef enum EntityType_ {
     ENTITY_PLAYER,
     ENTITY_BULLET,
     ENTITY_ENEMY,
@@ -117,7 +117,7 @@ static void OnPreStep(frBodyPair key, frCollision *value);
 int main(void) {
     SetConfigFlags(FLAG_MSAA_4X_HINT);
 
-    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "c-krit/ferox | " __FILE__);
+    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "jdeokkim/ferox | " __FILE__);
 
     InitExample();
 

@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="docs/static/images/readme-logo.png" alt="c-krit/ferox"><br>
+<img src="docs/static/images/readme-logo.png" alt="jdeokkim/ferox"><br>
 
-[![Version Badge](https://img.shields.io/github/v/release/c-krit/ferox?color=lightseagreen)](https://github.com/c-krit/ferox/releases)
-[![Codefactor Badge](https://www.codefactor.io/repository/github/c-krit/ferox/badge)](https://www.codefactor.io/repository/github/c-krit/ferox)
-[![Code Size Badge](https://img.shields.io/github/languages/code-size/c-krit/ferox?color=brightgreen)](https://github.com/c-krit/ferox)
-[![License Badge](https://img.shields.io/github/license/c-krit/ferox)](https://github.com/c-krit/ferox/blob/main/LICENSE)
+[![Version Badge](https://img.shields.io/github/v/release/jdeokkim/ferox?color=lightseagreen)](https://github.com/jdeokkim/ferox/releases)
+[![Codefactor Badge](https://www.codefactor.io/repository/github/jdeokkim/ferox/badge)](https://www.codefactor.io/repository/github/jdeokkim/ferox)
+[![Code Size Badge](https://img.shields.io/github/languages/code-size/jdeokkim/ferox?color=brightgreen)](https://github.com/jdeokkim/ferox)
+[![License Badge](https://img.shields.io/github/license/jdeokkim/ferox)](https://github.com/jdeokkim/ferox/blob/main/LICENSE)
 
 A lightweight 2D physics engine written in C, for educational purposes.
 
@@ -55,7 +55,7 @@ Download the latest release of MSYS2 from [here](https://www.msys2.org/) and fol
 # MSYS2, UCRT 64-bit
 
 $ pacman -Syu && pacman -S mingw-w64-ucrt-x86_64-gcc
-$ git clone https://github.com/c-krit/ferox && cd ferox
+$ git clone https://github.com/jdeokkim/ferox && cd ferox
 $ make
 ```
 
@@ -88,7 +88,7 @@ $ make -f Makefile.mingw
 
 ### Visual Studio 2022
 
-Download the latest release of this library from [here](https://github.com/c-krit/ferox/releases) and extract the `.zip` file to your working directory. Then, start [Windows PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.3) and type the following command to start the [Developer PowerShell](https://learn.microsoft.com/en-us/visualstudio/ide/reference/command-prompt-powershell?view=vs-2022):
+Download the latest release of this library from [here](https://github.com/jdeokkim/ferox/releases) and extract the `.zip` file to your working directory. Then, start [Windows PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7.3) and type the following command to start the [Developer PowerShell](https://learn.microsoft.com/en-us/visualstudio/ide/reference/command-prompt-powershell?view=vs-2022):
 
 ```console
 PS C:\Users\jdeokkim> & 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\Launch-VsDevShell.ps1' -Arch amd64
@@ -137,7 +137,7 @@ Download the latest release of w64devkit from [here](https://github.com/skeeto/w
 
 ```console
 $ mkdir ~/workspace && cd ~/workspace
-$ wget https://github.com/c-krit/ferox/archive/refs/heads/main.zip && unzip main.zip
+$ wget https://github.com/jdeokkim/ferox/archive/refs/heads/main.zip && unzip main.zip
 $ mv ferox-main ferox && cd ferox
 ```
 
@@ -173,7 +173,7 @@ $ make -f Makefile.mingw \
 
 ```console
 $ sudo pacman -Syu && sudo pacman -S base-devel git
-$ git clone https://github.com/c-krit/ferox ~/ferox && cd ~/ferox
+$ git clone https://github.com/jdeokkim/ferox ~/ferox && cd ~/ferox
 $ make
 ```
 
@@ -194,7 +194,7 @@ $ cd ~/ferox/examples && make
 
 ```console
 $ sudo apt install build-essential git
-$ git clone https://github.com/c-krit/ferox ~/ferox && cd ~/ferox
+$ git clone https://github.com/jdeokkim/ferox ~/ferox && cd ~/ferox
 $ make
 ```
 
@@ -216,7 +216,7 @@ $ cd ~/ferox/examples && make
 
 ```console
 $ sudo xbps-install base-devel git
-$ git clone https://github.com/c-krit/ferox ~/ferox && cd ~/ferox
+$ git clone https://github.com/jdeokkim/ferox ~/ferox && cd ~/ferox
 $ make
 ```
 
@@ -242,7 +242,7 @@ $ cd ~/ferox/examples && make
 
 ```console
 $ sudo pkg install git
-$ git clone https://github.com/c-krit/ferox && cd ferox
+$ git clone https://github.com/jdeokkim/ferox && cd ferox
 $ make
 ```
 
@@ -268,7 +268,7 @@ $ make RAYLIB_INCLUDE_PATH=/usr/local/include RAYLIB_LIBRARY_PATH=/usr/local/lib
 
 ```console
 $ sudo apt install build-essential git
-$ git clone https://github.com/c-krit/ferox && cd ferox
+$ git clone https://github.com/jdeokkim/ferox && cd ferox
 $ make
 ```
 
@@ -309,7 +309,7 @@ $ source ./emsdk_env.sh
 After setting up the environment variables for Emscripten SDK, do:
 
 ```console
-$ git clone https://github.com/c-krit/ferox && cd ferox
+$ git clone https://github.com/jdeokkim/ferox && cd ferox
 $ make -f Makefile.emcc
 ```
 
@@ -337,7 +337,7 @@ $ emrun --no_browser ./bin/basic.html
 
 ```console
 $ sudo apt install build-essential git mingw-w64
-$ git clone https://github.com/c-krit/ferox && cd ferox
+$ git clone https://github.com/jdeokkim/ferox && cd ferox
 $ make -f Makefile.mingw
 ```
 
@@ -406,7 +406,7 @@ $ make -f Makefile.mingw RAYLIB_INCLUDE_PATH=../../raylib RAYLIB_LIBRARY_PATH=..
 
 MIT License
 
-> Copyright (c) 2021-2024 Jaedeok Kim (jdeokkim@protonmail.com)
+> Copyright (c) 2021-2025 Jaedeok Kim (jdeokkim@protonmail.com)
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal

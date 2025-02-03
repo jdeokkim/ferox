@@ -4,7 +4,7 @@
 #ifndef SOKOL_TIME_INCLUDED
 /*
     sokol_time.h -- simple cross-platform time measurement
-                 -- modified (stripped down) for c-krit/ferox
+                 -- modified (stripped down) for `ferox`
 
     Project URL: https://github.com/floooh/sokol
 

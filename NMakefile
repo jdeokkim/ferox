@@ -1,5 +1,5 @@
 #
-# Copyright (c) 2021-2024 Jaedeok Kim <jdeokkim@protonmail.com>
+# Copyright (c) 2021-2025 Jaedeok Kim <jdeokkim@protonmail.com>
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -23,9 +23,8 @@
 # ============================================================================>
 
 PROJECT_NAME = ferox
-PROJECT_FULL_NAME = c-krit/ferox
 
-LOG_PREFIX = $(PROJECT_FULL_NAME):
+LOG_PREFIX = ~>
 
 # ============================================================================>
 
@@ -55,7 +54,7 @@ LDFLAGS = /DEBUG
 all: pre-build build post-build
 
 pre-build:
-	@echo $(LOG_PREFIX) Using: '$(CC)' and '$(AR)' to build this project.
+	@printf "${LOG_PREFIX} CC = ${CC}, AR = ${AR}, MAKE = ${MAKE}\n"
 	
 build: $(TARGETS)
 

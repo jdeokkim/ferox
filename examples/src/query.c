@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2021-2024 Jaedeok Kim <jdeokkim@protonmail.com>
+    Copyright (c) 2021-2025 Jaedeok Kim <jdeokkim@protonmail.com>
 
     Permission is hereby granted, free of charge, to any person obtaining a 
     copy of this software and associated documentation files (the "Software"),
@@ -78,7 +78,7 @@ static bool OnHashQuery(frContextNode ctx);
 int main(void) {
     SetConfigFlags(FLAG_MSAA_4X_HINT);
 
-    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "c-krit/ferox | " __FILE__);
+    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "jdeokkim/ferox | " __FILE__);
 
     InitExample();
 
@@ -148,7 +148,7 @@ static void UpdateExample(void) {
     {
         BeginDrawing();
 
-        ClearBackground(FR_DRAW_COLOR_MATTEBLACK);
+        ClearBackground(RAYWHITE);
 
         frDrawGrid(SCREEN_BOUNDS,
                    CELL_SIZE,

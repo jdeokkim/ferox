@@ -1,4 +1,4 @@
-# Contributing to `c-krit/ferox`
+# Contributing to `ferox`
 
 Thank you for your interest! This document contains a few things to consider when contributing to this library.
 
