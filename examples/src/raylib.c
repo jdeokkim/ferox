@@ -48,7 +48,7 @@
 
 /* Typedefs ================================================================ */
 
-typedef struct _Piece {
+typedef struct Piece_ {
     frBody *body;
     frVector2 offset;
 } Piece;
